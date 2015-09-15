@@ -1,0 +1,118 @@
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Optimization.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Providers.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\WebGrease.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Moq.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Moq.pdb
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Moq.xml
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+D:\Projects\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Moq.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Http.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Optimization.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Providers.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\WebGrease.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Moq.pdb
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Moq.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Http.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\Google Drive\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+D:\Google Drive\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+D:\Google Drive\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Antlr3.Runtime.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Moq.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Optimization.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Providers.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\WebGrease.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Moq.pdb
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Moq.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\Newtonsoft.Json.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Net.Http.Formatting.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Http.WebHost.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Deployment.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\bin\System.Web.WebPages.Razor.xml
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+D:\GDrive\Projects\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
