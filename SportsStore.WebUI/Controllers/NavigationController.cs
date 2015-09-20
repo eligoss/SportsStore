@@ -5,11 +5,11 @@ using SportsStore.Domain.Abstract;
 
 namespace SportsStore.WebUI.Controllers
 {
-    public class NavController : Controller
+    public class NavigationController : Controller
     {
         private IProductRepository repository;
 
-        public NavController(IProductRepository repo)
+        public NavigationController(IProductRepository repo)
         {
             this.repository = repo;
         }
@@ -17,10 +17,12 @@ namespace SportsStore.WebUI.Controllers
         public PartialViewResult Menu(string category = null)
         {
             ViewBag.SelectedCategory = category;
+
             IEnumerable<string> categories = repository.Products
-            .Select(x => x.Category)
-            .Distinct()
-            .OrderBy(x => x);
+                .Select(x => x.Category)
+                .Distinct()
+                .OrderBy(x => x);
+
             return PartialView(categories);
         }       
     }

@@ -138,7 +138,7 @@ namespace SportsStore.UnitTests
                 new Product {ProductID = 4, Name = "P4", Category = "Oranges"},
             }.AsQueryable());
 
-            NavController controller = new NavController(mock.Object);
+            NavigationController controller = new NavigationController(mock.Object);
 
             //Act
             string[] results = ((IEnumerable<string>)controller.Menu().Model).ToArray();
@@ -159,7 +159,7 @@ namespace SportsStore.UnitTests
                 new Product {ProductID = 4, Name = "P2", Category = "Oranges"},
             }.AsQueryable());
 
-            NavController target = new NavController(mock.Object);
+            NavigationController target = new NavigationController(mock.Object);
 
             string categoryToSelect = "Apples";
 
