@@ -44,19 +44,10 @@ namespace SportsStore.WebUI.Infrastructure
 
             ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
             ninjectKernel.Bind<IAuthProvider>().To<FormsAuthProvider>();
+            ninjectKernel.Bind<IConfigManager>().To<ConfigManager>();
+            ninjectKernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>();
 
 
-
-            EmailSettings emailSettings = new EmailSettings
-            {
-                WriteAsFile = bool.Parse(ConfigurationManager
-                .AppSettings["Email.WriteAsFile"] ?? "false")
-            };
-            ninjectKernel.Bind<IOrderProcessor>()
-            .To<EmailOrderProcessor>()
-            .WithConstructorArgument("settings", emailSettings);
-
-          
         }
     }
 }

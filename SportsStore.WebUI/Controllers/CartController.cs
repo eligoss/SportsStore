@@ -24,8 +24,7 @@ namespace SportsStore.WebUI.Controllers
 
         public RedirectToRouteResult AddToCart(Cart cart, int productId, string returnUrl)
         {
-            Product product = repository.Products
-            .FirstOrDefault(p => p.ProductID == productId);
+            Product product = repository.Products.FirstOrDefault(p => p.ProductID == productId);
 
             if (product != null)
             {
@@ -36,8 +35,7 @@ namespace SportsStore.WebUI.Controllers
 
         public RedirectToRouteResult RemoveFromCart(Cart cart, int productId, string returnUrl)
         {
-            Product product = repository.Products
-            .FirstOrDefault(p => p.ProductID == productId);
+            Product product = repository.Products.FirstOrDefault(p => p.ProductID == productId);
 
             if (product != null)
             {
@@ -60,19 +58,18 @@ namespace SportsStore.WebUI.Controllers
         public ViewResult Checkout(Cart cart, ShippingDetails shippingDetails)
         {
             if (cart.Lines.Count() == 0)
-            {
                 ModelState.AddModelError("", "Sorry, your cart is empty!");
-            }
+
+
             if (ModelState.IsValid)
             {
                 orderProcessor.ProcessOrder(cart, shippingDetails);
                 cart.Clear();
                 return View("Completed");
             }
-            else
-            {
-                return View(shippingDetails);
-            }
+
+            return View(shippingDetails);
+
         }
     }
 }

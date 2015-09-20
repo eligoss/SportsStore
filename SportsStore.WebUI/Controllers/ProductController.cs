@@ -30,11 +30,12 @@ namespace SportsStore.WebUI.Controllers
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
                     TotalItems = category == null ?
-                    repository.Products.Count() :
-                    repository.Products.Where(e => e.Category == category).Count()
+                        repository.Products.Count() :
+                        repository.Products.Where(e => e.Category == category).Count()
                 },
                 CurrentCategory = category
             };
+
             return View(viewModel);
         }
 
@@ -45,10 +46,8 @@ namespace SportsStore.WebUI.Controllers
             {
                 return File(prod.ImageData, prod.ImageMimeType);
             }
-            else
-            {
-                return null;
-            }
+
+            return null;
         }
     }
 }

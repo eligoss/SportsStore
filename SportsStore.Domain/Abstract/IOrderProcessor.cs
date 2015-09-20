@@ -1,5 +1,6 @@
-﻿
-namespace SportsStore.Domain.Entities
+﻿using SportsStore.Domain.Entities;
+
+namespace SportsStore.Domain.Abstract
 {
     public interface IOrderProcessor
     {

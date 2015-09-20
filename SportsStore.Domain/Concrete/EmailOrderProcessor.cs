@@ -1,12 +1,18 @@
 ﻿using System.Net;
 using System.Net.Mail;
 using System.Text;
+using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
 
 namespace SportsStore.Domain.Concrete
 {
     public class EmailSettings
     {
+        public EmailSettings(bool isWriteAsFile)
+        {
+            this.WriteAsFile = isWriteAsFile;
+        }
+
         public string MailToAddress = "orders@example.com";
         public string MailFromAddress = "sportsstore@example.com";
         public bool UseSsl = true;
@@ -15,16 +21,16 @@ namespace SportsStore.Domain.Concrete
         public string ServerName = "smtp.example.com";
         public int ServerPort = 587;
         public bool WriteAsFile = false;
-        public string FileLocation = @"c:\sports_store_emails";
+        public string FileLocation = @"c:\sports_store_emails"; 
     }
 
     public class EmailOrderProcessor : IOrderProcessor
     {
         private EmailSettings emailSettings;
 
-        public EmailOrderProcessor(EmailSettings settings)
+        public EmailOrderProcessor(IConfigManager configManager)
         {
-            emailSettings = settings;
+            emailSettings = new EmailSettings(configManager.Email_WriteAsFile);
         }
 
         public void ProcessOrder(Cart cart, ShippingDetails shippingInfo)
