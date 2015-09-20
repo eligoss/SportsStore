@@ -1,12 +1,11 @@
 ﻿using System;
-using Ninject;
-using System.Web.Routing;
+using System.Configuration;
 using System.Web.Mvc;
+using System.Web.Routing;
+using Ninject;
 using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Concrete;
 using SportsStore.Domain.Entities;
-using System.Configuration;
-
 using SportsStore.WebUI.Infrastructure.Concrete;
 
 namespace SportsStore.WebUI.Infrastructure
@@ -18,7 +17,7 @@ namespace SportsStore.WebUI.Infrastructure
         public NinjectControllerFactory()
         {
             ninjectKernel = new StandardKernel();
-            AddBindings();
+            Initialise();
         }
 
         protected override IController GetControllerInstance(RequestContext requestContext, Type controllerType)
@@ -29,7 +28,7 @@ namespace SportsStore.WebUI.Infrastructure
         /// <summary>
         /// For bindings
         /// </summary>
-        private void AddBindings()
+        private void Initialise()
         {
             //#region Mock for products
 
@@ -44,6 +43,9 @@ namespace SportsStore.WebUI.Infrastructure
             //#endregion
 
             ninjectKernel.Bind<IProductRepository>().To<EFProductRepository>();
+            ninjectKernel.Bind<IAuthProvider>().To<FormsAuthProvider>();
+
+
 
             EmailSettings emailSettings = new EmailSettings
             {
@@ -54,7 +56,7 @@ namespace SportsStore.WebUI.Infrastructure
             .To<EmailOrderProcessor>()
             .WithConstructorArgument("settings", emailSettings);
 
-            ninjectKernel.Bind<IAuthProvider>().To<FormsAuthProvider>();
+          
         }
     }
 }

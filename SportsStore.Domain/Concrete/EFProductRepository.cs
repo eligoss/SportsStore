@@ -1,6 +1,6 @@
-﻿using SportsStore.Domain.Abstract;
+﻿using System.Linq;
+using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
-using System.Linq;
 
 namespace SportsStore.Domain.Concrete
 {

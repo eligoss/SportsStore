@@ -21,3 +21,11 @@ D:\GDrive\Projects\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
 D:\GDrive\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
 D:\GDrive\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 D:\GDrive\Projects\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+D:\Projects\my\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+D:\Projects\my\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+D:\Projects\my\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+D:\Projects\my\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+D:\Projects\my\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+D:\Projects\my\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+D:\Projects\my\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+D:\Projects\my\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb

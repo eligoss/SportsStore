@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Web.Security;
 using SportsStore.Domain.Abstract;
-using System.Web.Security;
 
 namespace SportsStore.WebUI.Infrastructure.Concrete
 {

@@ -1,5 +1,5 @@
-﻿using SportsStore.Domain.Entities;
-using System.Linq;
+﻿using System.Linq;
+using SportsStore.Domain.Entities;
 
 namespace SportsStore.Domain.Abstract
 {

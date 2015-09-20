@@ -1,7 +1,7 @@
-﻿using SportsStore.WebUI.Models;
-using System;
-using System.Web.Mvc;
+﻿using System;
 using System.Text;
+using System.Web.Mvc;
+using SportsStore.WebUI.Models;
 
 namespace SportsStore.WebUI.HtmlHelpers
 {

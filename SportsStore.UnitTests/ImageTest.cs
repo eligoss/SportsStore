@@ -1,13 +1,9 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using SportsStore.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Web.Mvc;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 using SportsStore.Domain.Abstract;
-using System.Web.Mvc;
+using SportsStore.Domain.Entities;
 using SportsStore.WebUI.Controllers;
 
 namespace SportsStore.UnitTests
@@ -28,11 +24,12 @@ namespace SportsStore.UnitTests
             };
 
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
-            mock.Setup(m => m.Products).Returns(new Product[] {
-new Product {ProductID = 1, Name = "P1"},
-prod,
-new Product {ProductID = 3, Name = "P3"}
-}.AsQueryable());
+            mock.Setup(m => m.Products).Returns(new Product[] 
+                {
+                    new Product {ProductID = 1, Name = "P1"},
+                    prod,
+                    new Product {ProductID = 3, Name = "P3"}
+                }.AsQueryable());
 
             ProductController target = new ProductController(mock.Object);
 
@@ -50,13 +47,14 @@ new Product {ProductID = 3, Name = "P3"}
         {
             // Arrange 
             Mock<IProductRepository> mock = new Mock<IProductRepository>();
-            mock.Setup(m => m.Products).Returns(new Product[] {
-new Product {ProductID = 1, Name = "P1"},
-new Product {ProductID = 2, Name = "P2"}
-}.AsQueryable());
-            
+            mock.Setup(m => m.Products).Returns(new Product[] 
+                {
+                    new Product {ProductID = 1, Name = "P1"},
+                    new Product {ProductID = 2, Name = "P2"}
+                }.AsQueryable());
+
             ProductController target = new ProductController(mock.Object);
-            
+
             // Act 
             ActionResult result = target.GetImage(100);
 
